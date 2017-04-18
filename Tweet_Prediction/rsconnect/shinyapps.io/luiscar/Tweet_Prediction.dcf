@@ -1,0 +1,10 @@
+name: Tweet_Prediction
+title: Tweet_Prediction
+account: luiscar
+server: shinyapps.io
+appId: 171286
+bundleId: 786120
+url: https://luiscar.shinyapps.io/Tweet_Prediction/
+when: 1491961417.22841
+asMultiple: FALSE
+asStatic: FALSE
