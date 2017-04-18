@@ -211,7 +211,7 @@ server <- shinyServer(function(input, output, session) {
     sentiment = rep(0, tweet_num)
     for (i in 1:tweet_num)
     {
-      tmp = getSentiment(tweet_df$text[i], "9681e24763c070707b7ac6e96190c152")
+      tmp = getSentiment(tweet_df$text[i], "9681e24763c070707b7ac6e96190cXXX")
       #tweet_df$sentiment[i] = tmp$sentiment
       datos$sentiment[i] = tmp$sentiment
       datos$subject[i] = tmp$subject
